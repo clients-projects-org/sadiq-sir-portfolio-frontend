@@ -51,143 +51,14 @@ const menuConfig: MenuConfig[] = [
 		icon: 'pie',
 		path: '/admin/dashboard',
 	},
-	{
-		label: 'Products',
-		key: 'products',
-		icon: 'shopping',
-		children: [
-			{
-				label: 'All Products',
-				key: 'all-products',
-				path: '/admin/products',
-			},
-			{
-				label: 'Add Product',
-				key: 'add-product',
-				path: '/admin/products/add',
-			},
-			{
-				label: 'Categories',
-				key: 'categories',
-				path: '/admin/products/categories',
-			},
-			{
-				label: 'Brands',
-				key: 'brands',
-				path: '/admin/products/brands',
-			},
-			{
-				label: 'Inventory',
-				key: 'inventory',
-				path: '/admin/products/inventory',
-			},
-			{
-				label: 'Reviews',
-				key: 'product-reviews',
-				path: '/admin/products/reviews',
-			},
-		],
-	},
-	{
-		label: 'Orders',
-		key: 'orders',
-		icon: 'shopping-cart',
-		children: [
-			{
-				label: 'All Orders',
-				key: 'all-orders',
-				path: '/admin/orders',
-			},
-			{
-				label: 'Returns & Refunds',
-				key: 'returns',
-				path: '/admin/orders/returns',
-			},
-			{
-				label: 'Abandoned Carts',
-				key: 'abandoned-carts',
-				path: '/admin/orders/abandoned-carts',
-			},
-		],
-	},
-	{
-		label: 'Customers',
-		key: 'customers',
-		icon: 'team',
-		children: [
-			{
-				label: 'Customer List',
-				key: 'customer-list',
-				path: '/admin/customers',
-			},
-			{
-				label: 'Customer Support',
-				key: 'customer-support',
-				path: '/admin/customers/support',
-			},
-			{
-				label: 'Reviews',
-				key: 'reviews',
-				path: '/admin/customers/reviews',
-			},
-		],
-	},
-	{
-		label: 'Marketing',
-		key: 'marketing',
-		icon: 'rocket',
-		children: [
-			{
-				label: 'Coupons',
-				key: 'coupons',
-				path: '/admin/marketing/coupons',
-			},
-			{
-				label: 'Campaigns',
-				key: 'campaigns',
-				path: '/admin/marketing/campaigns',
-			},
-			{
-				label: 'Email Marketing',
-				key: 'email-marketing',
-				path: '/admin/marketing/email',
-			},
-			{
-				label: 'SEO',
-				key: 'seo',
-				path: '/admin/marketing/seo',
-			},
-		],
-	},
-	{
-		label: 'Analytics',
-		key: 'analytics',
-		icon: 'bar-chart',
-		children: [
-			{
-				label: 'Sales Reports',
-				key: 'sales-reports',
-				path: '/admin/analytics/sales',
-			},
-			{
-				label: 'Customer Insights',
-				key: 'customer-insights',
-				path: '/admin/analytics/customers',
-			},
-			{
-				label: 'Product Performance',
-				key: 'product-performance',
-				path: '/admin/analytics/products',
-			},
-		],
-	},
+
 	{
 		label: 'Content',
 		key: 'content',
 		icon: 'file-text',
 		children: [
 			{
-				label: 'Banners & Sliders',
+				label: 'Banners',
 				key: 'banners',
 				path: '/admin/content/banners',
 			},
@@ -213,50 +84,34 @@ const menuConfig: MenuConfig[] = [
 			},
 		],
 	},
-	{
-		label: 'Shipping',
-		key: 'shipping',
-		icon: 'truck',
-		children: [
-			{
-				label: 'Shipping Methods',
-				key: 'shipping-methods',
-				path: '/admin/shipping/methods',
-			},
-			{
-				label: 'Delivery Partners',
-				key: 'delivery-partners',
-				path: '/admin/shipping/partners',
-			},
-		],
-	},
-	{
-		label: 'Settings',
-		key: 'settings',
-		icon: 'setting',
-		children: [
-			{
-				label: 'Store Settings',
-				key: 'store-settings',
-				path: '/admin/settings/store',
-			},
-			{
-				label: 'Payment Gateways',
-				key: 'payment-settings',
-				path: '/admin/settings/payment',
-			},
-			{
-				label: 'Tax & Legal',
-				key: 'tax-settings',
-				path: '/admin/settings/tax',
-			},
-			{
-				label: 'User Permissions',
-				key: 'user-permissions',
-				path: '/admin/settings/permissions?tab=role_category',
-			},
-		],
-	},
+
+	// {
+	// 	label: 'Settings',
+	// 	key: 'settings',
+	// 	icon: 'setting',
+	// 	children: [
+	// 		{
+	// 			label: 'Store Settings',
+	// 			key: 'store-settings',
+	// 			path: '/admin/settings/store',
+	// 		},
+	// 		{
+	// 			label: 'Payment Gateways',
+	// 			key: 'payment-settings',
+	// 			path: '/admin/settings/payment',
+	// 		},
+	// 		{
+	// 			label: 'Tax & Legal',
+	// 			key: 'tax-settings',
+	// 			path: '/admin/settings/tax',
+	// 		},
+	// 		{
+	// 			label: 'User Permissions',
+	// 			key: 'user-permissions',
+	// 			path: '/admin/settings/permissions?tab=role_category',
+	// 		},
+	// 	],
+	// },
 ];
 const siderStyle: React.CSSProperties = {
 	overflow: 'auto',
